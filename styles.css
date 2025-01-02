@@ -1,70 +1,71 @@
+/* CSS for the Fantastic Calculator with LGBT+ theme */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .calculator {
-    background: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    width: 400px;
-    padding: 20px;
-  }
-  
-  .display {
-    background: #000000;
-    color: #00ff00;
-    font-size: 2rem;
-    text-align: right;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    height: 60px;
-    overflow: hidden;
-  }
-  
-  .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-  }
-  
-  .buttons button {
-    padding: 20px;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: #ffffff;
-    cursor: pointer;
-    transition: all 0.3s;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .buttons button:hover {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    transform: scale(1.1);
-  }
-  
-  .buttons button:active {
-    transform: scale(1);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .buttons button.special {
-    background: #f44336;
-  }
-  
-  .buttons button.special:hover {
-    background: #d32f2f;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff006e, #f72585, #7209b7, #4361ee, #4cc9f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 20px;
+}
+
+.display {
+  background: #000000;
+  color: #ffde7d;
+  font-size: 2rem;
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff006e, #f72585, #7209b7);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttons button:hover {
+  background: linear-gradient(135deg, #4361ee, #4cc9f0);
+  transform: scale(1.1);
+}
+
+.buttons button:active {
+  transform: scale(1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttons button.special {
+  background: #ff006e;
+}
+
+.buttons button.special:hover {
+  background: #f72585;
+}
